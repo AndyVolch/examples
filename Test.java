@@ -47,7 +47,7 @@ public class Test {
         // Меням размер апельсина исходного дерева на с 3 на 10
         deepTree.getOrange().setSize(10);
 
-        // У копии дерева оно изменилось тоже. Это нежелательное поведение
+        // У разных деревьев разные апельсины - норм!
         System.out.println("Исходное дерево: " + deepTree.getOrange());
         System.out.println("Копия дерева: " + deepTreeCopy.getOrange());
     }
